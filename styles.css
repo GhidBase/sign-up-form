@@ -147,7 +147,7 @@ h1 {
 }
 
 .input-item :invalid {
-    border: 1px solid red;
+    border-color: red;
     border-radius: 4px;
 }
 
