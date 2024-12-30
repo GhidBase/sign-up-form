@@ -1,10 +1,18 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+
+}
+
 body {
     display: flex;
     margin: 0px;
     padding: 0px;
+    border: none;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    /* overflow: hidden; */
     justify-content: center;
     background-color: black;
 
@@ -74,7 +82,7 @@ body {
 .input-panel {
     background-color: white;
     color: black;
-    height: 32vh;
+    flex-basis: 32vh;
     box-shadow: 0px 8px 15px -5px rgba(0, 0, 0, 0.3);
     width: 100%;
     display: flex;
@@ -109,4 +117,25 @@ input {
 h1 {
     font-weight: 400;
     font-size: 28px;
+}
+
+.submit-button {
+    margin-top: 30px;
+    margin-left: 35px;
+    width: 230px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    background-color: #596D48;
+    color: white;
+    font-family: 'roboto';
+    font-size: 18px;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.already-have-account {
+    margin-left: 35px;
+    margin-top: 35px;
+    font-family: 'roboto';
 }
