@@ -51,13 +51,17 @@
                     </div>
                     <div class="input-item">
                         <label for="phone-number">Phone Number</label>
-                        <input type="text" id="phone-number" name="phone-number">
+                        <input type="text"
+                            id="phone-number"
+                            name="phone-number"
+                            pattern="[0-9\-]+"
+                            title="Must only contain numbers and dashes">
                     </div>
                 </div>
                 <div class="input-row">
                     <div class="input-item">
                         <label for="password">Password</label>
-                        <input type="text" id="password" name="password">
+                        <input type="text" id="password" name="password" minlength="4">
                     </div>
                     <div class="input-item">
                         <label for="confirm-password">Confirm Password</label>
