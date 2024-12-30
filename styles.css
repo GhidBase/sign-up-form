@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    background-color: black;
+}
+
+.background-photo {
+    height: 100vh;
+    background-color: black;
+}
+
+.background-photo img{
+    height: 100%;
+    width: 28vw;
+}
+
+.input-panel {
+    width: 48vw;
+    background-color: white;
+}
