@@ -37,17 +37,17 @@
                 <div class="input-row">
                     <div class="input-item">
                         <label for="first-name">First Name</label>
-                        <input type="text" id="first-name" name="first-name">
+                        <input type="text" id="first-name" name="first-name" required>
                     </div>
                     <div class="input-item">
                         <label for="last-name">Last Name</label>
-                        <input type="text" id="last-name" name="last-name">
+                        <input type="text" id="last-name" name="last-name" required>
                     </div>
                 </div>
                 <div class="input-row">
                     <div class="input-item">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
+                        <input type="email" id="email" name="email" required>
                     </div>
                     <div class="input-item">
                         <label for="phone-number">Phone Number</label>
@@ -55,17 +55,18 @@
                             id="phone-number"
                             name="phone-number"
                             pattern="[0-9\-]+"
-                            title="Must only contain numbers and dashes">
+                            title="Must only contain numbers and dashes"
+                            required>
                     </div>
                 </div>
                 <div class="input-row">
                     <div class="input-item">
                         <label for="password">Password</label>
-                        <input type="text" id="password" name="password" minlength="4">
+                        <input type="text" id="password" name="password" minlength="4" required>
                     </div>
                     <div class="input-item">
                         <label for="confirm-password">Confirm Password</label>
-                        <input type="text" id="confirm-password" name="confirm-password">
+                        <input type="text" id="confirm-password" name="confirm-password" required>
                     </div>
                 </div>
 

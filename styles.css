@@ -146,10 +146,10 @@ h1 {
     font-family: 'roboto';
 }
 
-.input-item :invalid {
+/* .input-item :invalid {
     border-color: red;
     border-radius: 4px;
-}
+} */
 
 input:focus {
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.603);
